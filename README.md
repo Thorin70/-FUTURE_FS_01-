@@ -85,17 +85,7 @@ portfolioMain/
 - Professional experience timeline
 - Role descriptions and achievements
 
-### GitHub Pages
-1. Add to `package.json`:
-   ```json
-   {
-     "homepage": "https://yourusername.github.io/portfolio",
-     "scripts": {
-       "predeploy": "npm run build",
-       "deploy": "gh-pages -d dist"
-     }
-   }
-   ```
+
 2. Install gh-pages: `npm install --save-dev gh-pages`
 3. Deploy: `npm run deploy`
 
